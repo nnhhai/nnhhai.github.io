@@ -34,7 +34,7 @@
 
 			/* Style the top navigation bar */
 			.topnav {
-				overflow: hidden;
+				/*overflow: hidden;*/
 				background-color: #333;
 			}
 
@@ -117,6 +117,10 @@
 				color:#fff;
 				border-color:#6c757d;
 			}
+			div.form-group:nth-child(4) > small:nth-child(1) > a:nth-child(1) {
+ color: black;
+}
+
 
 
 			/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -252,8 +256,35 @@
 			</div>
 			<div class="card">
 				<h3>Follow Me</h3>
-				<button style="font-size:40px" onclick="shot()"><i class="fa fa-camera"></i></button>
-				<button style="font-size:40px" onclick="upload()"><i class="fa fa-upload"></i></button>
+				<button style="font-size:40px" data-toggle="modal" data-target="#shot"><i class="fa fa-camera"></i></button>
+				<button style="font-size:40px" data-toggle="modal" data-target="#upload"><i class="fa fa-upload"></i></button>
+
+				<div class="modal fade" id="shot" role="dialog">
+					<div class="modal-dialog modal-sm">
+						<div class="modal-content">
+							<div class="modal-body">
+								<p>Đã chụp!</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Đóng</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="upload" role="dialog">
+					<div class="modal-dialog modal-sm">
+						<div class="modal-content">
+							<div class="modal-body">
+								<p>Đã tải dữ liệu lên hệ thống!</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Đóng</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -261,14 +292,14 @@
 	<div class="footer">
 		<h2></h2>
 	</div>
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
 		function shot(){
 			alert("Đã chụp!");
 		}
 		function upload(){
 			alert("Đã tải dữ liệu lên hệ thống!");
 		}
-	</script>
+	</script> -->
 
 </body>
 </html>
