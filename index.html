@@ -252,8 +252,8 @@
 			</div>
 			<div class="card">
 				<h3>Follow Me</h3>
-				<button style="font-size:40px"><i class="fa fa-camera"></i></button>
-				<button style="font-size:40px"><i class="fa fa-upload"></i></button>
+				<button style="font-size:40px" onclick="shot()"><i class="fa fa-camera"></i></button>
+				<button style="font-size:40px" onclick="upload()"><i class="fa fa-upload"></i></button>
 			</div>
 		</div>
 	</div>
@@ -261,6 +261,14 @@
 	<div class="footer">
 		<h2></h2>
 	</div>
+	<script type="text/javascript">
+		function shot(){
+			alert("Đã chụp!");
+		}
+		function upload(){
+			alert("Đã tải dữ liệu lên hệ thống!");
+		}
+	</script>
 
 </body>
 </html>
