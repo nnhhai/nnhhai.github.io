@@ -284,22 +284,196 @@
 				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 			</div>
 			<div class="card">
-				<h5>PHÂN TÍCH ẢNH ĐÃ TẢI LÊN TỪ HỆ THỐNG</h5>
+				<h2>PHÂN TÍCH ẢNH ĐÃ TẢI LÊN TỪ HỆ THỐNG</h2>
+				<h5>Click vào từng ảnh để xem thông tin phân tích chi tiết</h5>
 				<div class="row">
 					<div class="column">
-						<img src="https://cdn.stereo.vn/uploads/2018/04/power-pole_m.jpg" style="width:100%">
-						<img src="https://img.lovepik.com/photo/50036/7401.jpg_wh860.jpg" style="width:100%">
-						<img src="https://images.pexels.com/photos/1714469/pexels-photo-1714469.jpeg?cs=srgb&dl=pexels-1714469.jpg&fm=jpg" style="width:100%">
+						<img id="1" src="https://cdn.stereo.vn/uploads/2018/04/power-pole_m.jpg" style="width:100%" id="1" onclick="photo(this.id)" >
+						<div id="photo1" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>3</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>6</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<img src="https://img.lovepik.com/photo/50036/7401.jpg_wh860.jpg" style="width:100%" id="2" onclick="photo(this.id)">
+						<div id="photo2" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>4</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<img src="https://images.pexels.com/photos/1714469/pexels-photo-1714469.jpeg?cs=srgb&dl=pexels-1714469.jpg&fm=jpg" style="width:100%" id="3" onclick="photo(this.id)">
+						<div id="photo3" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện cao thế</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
 					</div>
 					<div class="column">
-						<img src="https://baoquangbinh.vn/dataimages/202004/original/images666497_93259533_207603550692229_3563366062902738944_n.jpg" style="width:100%">
-						<img src="https://image.thanhnien.vn/768/uploaded/congthang/2016_07_29/5b3706945dcd2_cicj.jpg" style="width:100%">
-						<img src="https://2.bp.blogspot.com/-6d1NsRgtwgU/U7V66a9g09I/AAAAAAAAALs/sInQ1u51Xuc/s1600/cot-dien-chu-h-3.jpg" style="width:100%">
+						<img src="https://baoquangbinh.vn/dataimages/202004/original/images666497_93259533_207603550692229_3563366062902738944_n.jpg" style="width:100%" id="4" onclick="photo(this.id)">
+						<div id="photo4" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>10</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>Sự cố</td>
+									<td>Có cháy tại cột điện</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<img src="https://image.thanhnien.vn/768/uploaded/congthang/2016_07_29/5b3706945dcd2_cicj.jpg" style="width:100%" id="5" onclick="photo(this.id)">
+						<div id="photo5" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>4</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>Sự cố</td>
+									<td>Cột điện gãy</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<img src="https://2.bp.blogspot.com/-6d1NsRgtwgU/U7V66a9g09I/AAAAAAAAALs/sInQ1u51Xuc/s1600/cot-dien-chu-h-3.jpg" style="width:100%" id="6" onclick="photo(this.id)">
+						<div id="photo6" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>10</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
 					</div>
 					<div class="column">
-						<img src="https://animal.vn/wp-content/uploads/2017/07/meo-mac-ket-tren-cot-dien-01.jpg" style="width:100%">
-						<img src="https://media.ngoisao.vn/news/2019/09/26/2-chu-cho-ngoc-nghech-ngoisao.vn-w470-h423.jpg" style="width:100%">
-						<img src="https://news.images.itv.com/image/file/1423635/stream_img.jpg" style="width:100%">
+						<img src="https://animal.vn/wp-content/uploads/2017/07/meo-mac-ket-tren-cot-dien-01.jpg" style="width:100%" id="7" onclick="photo(this.id)">
+						<div id="photo7" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>10</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>Sự cố</td>
+									<td>Có vật thể lạ trên cột điện</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<img src="https://media.ngoisao.vn/news/2019/09/26/2-chu-cho-ngoc-nghech-ngoisao.vn-w470-h423.jpg" style="width:100%" id="8" onclick="photo(this.id)">
+						<div id="photo8" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>6</td>
+								</tr>
+								<tr>
+									<td>Sự cố</td>
+									<td>Có vật thể lạ trên cột điện</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<img src="https://news.images.itv.com/image/file/1423635/stream_img.jpg" style="width:100%" id="9" onclick="photo(this.id)">
+						<div id="photo9" style="display: none;">
+							<table class="table table-striped">
+								<tr>
+									<td>Cột điện</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Dây điện</td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td>Sứ cách điện</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>Sự cố</td>
+									<td>Có vật thể lạ trên cột điện</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
 					</div>
 				</div>
 				
@@ -359,7 +533,7 @@
 				</table>
 			</div>
 			<div class="card">
-				<h3>Follow Me</h3>
+				<h3>-</h3>
 				<button style="font-size:40px" data-toggle="modal" data-target="#shot"><i class="fa fa-camera"></i></button>
 				<button style="font-size:40px" data-toggle="modal" data-target="#upload"><i class="fa fa-upload"></i></button>
 
@@ -429,6 +603,26 @@
     	var input = event.srcElement;
     	var fileName = input.files[0].name;
     	infoArea.textContent = 'File name: ' + fileName;
+    }
+
+    function photo(id){
+    	let _id = id;
+    	var x;
+    	if (_id == 1) x = document.getElementById("photo1");
+    	if (_id == 2) x = document.getElementById("photo2");
+    	if (_id == 3) x = document.getElementById("photo3");
+    	if (_id == 4) x = document.getElementById("photo4");
+    	if (_id == 5) x = document.getElementById("photo5");
+    	if (_id == 6) x = document.getElementById("photo6");
+    	if (_id == 7) x = document.getElementById("photo7");
+    	if (_id == 8) x = document.getElementById("photo8");
+    	if (_id == 9) x = document.getElementById("photo9");
+
+    	if (x.style.display === "none") {
+    		x.style.display = "block";
+    	} else {
+    		x.style.display = "none";
+    	}
     }
 </script>
 
